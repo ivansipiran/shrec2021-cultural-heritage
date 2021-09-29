@@ -1,0 +1,1 @@
+# shrec2021-cultural-heritage
