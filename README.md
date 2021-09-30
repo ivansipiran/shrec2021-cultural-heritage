@@ -4,6 +4,20 @@ This is the official repository of the paper "SHREC 2021: Retrieval of Cultural 
 
 This paper describes the benchmark and results of a shape retrieval contest, where the dataset is composed of cultural heritage objects.
 
+## Setup 
+We use Ubuntu 18.04 with Python 3.6. Follow the next instructions to establish the environment.
+
+1. Create an environment
+~~~
+python3 -m venv shrec2021 --system-site-packages
+source shrec2021/bin/activate
+~~~
+
+2. Install dependencies
+~~~
+pip install -r requirements.txt
+~~~
+
 ## The Track
 3D shape analysis has a historical symbiosis with the cultural heritage domain. The list of contributions of computer graphics and graphics technology in cultural heritage applications is long, and it includes 3D digitization, reconstruction, virtual restoration, immersive interfaces, and so on. Most of these techniques rely on having a suitable 3D representation of archaeological objects, making it possible to process and analyze these objects with computational methods effectively. Nevertheless, some contributions of shape analysis and geometry processing in CH applications have been limited by the relatively small number of items we can use in experimentation.
 
