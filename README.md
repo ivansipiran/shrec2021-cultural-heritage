@@ -48,7 +48,7 @@ We share the evaluation code to run experiments with our dataset. In our evaluat
 *   **Precision-Recall curves**
 *   **Confusion Matrix**
 
-The input for the evaluation is a distance matrix of size $N_q \times N_c$, where $N_q$ is the number of objects in the query set and $N_c$ is the number of objects in the collection set. All the evaluation metrics are computed on a single query, and subsequently, we calculate the final measure as the average of the individual measures. Given a query object, we create a ranked list of objects in the collection set according to the query’s increasing distance. Precision is the ratio of retrieved relevant objects concerning a retrieved ranked list. Similarly, recall is the ratio of retrieved relevant objects concerning the complete list of relevant objects.
+The input for the evaluation is a distance matrix of size Nq x Nc, where Nq is the number of objects in the query set and Nc is the number of objects in the collection set. All the evaluation metrics are computed on a single query, and subsequently, we calculate the final measure as the average of the individual measures. Given a query object, we create a ranked list of objects in the collection set according to the query’s increasing distance. Precision is the ratio of retrieved relevant objects concerning a retrieved ranked list. Similarly, recall is the ratio of retrieved relevant objects concerning the complete list of relevant objects.
 
 ## Running the evaluation tool
 The Python program "experiments.py" allows us to run the evaluation code. This program can be used to create all the figures of the paper. Let's see some examples on how to use this tool:
