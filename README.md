@@ -95,6 +95,23 @@ The Python program "experiments.py" allows us to run the evaluation code. This p
 The name of the text files with the distance matrices should be in the following form: <name_method>.<name_run>.txt
 These files should be located in the input folder.
 
+## How to generate the paper's figures?
+In this repository, we make available the distance matrices provided by the track's participants (see folders 'testShape' and 'testCulture'). In addition, we provide bash scripts to directly execute the evaluation tool and generate the paper's figures and tables.
+
+To generate the results and figures for the retrieval-by-shape challenge, you execute:
+
+~~~
+> ./experimentShape.sh
+~~~
+
+You may need 'sudo' as the script will try to create the output folder. The script will generate exactly the same figures and tables presented in the paper, in PDF format.
+
+To generate the results and figures for the retrieval-by-culture challenge, you execute:
+
+~~~
+> ./experimentCulture.sh
+~~~
+
 ## Citation
 If you find this work useful, please cite us:
 
